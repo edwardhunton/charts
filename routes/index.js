@@ -3,7 +3,8 @@ var mongoose = require('mongoose');
 var db;
 if (process.env.VCAP_SERVICES) {
     var env = JSON.parse(process.env.VCAP_SERVICES);
-    db = mongoose.createConnection(env['mongodb-2.2'][0].credentials.url);
+    db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10009/app22764144');
+
 } else {
     db = mongoose.createConnection('localhost', 'charts');
 }
