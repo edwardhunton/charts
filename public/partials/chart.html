@@ -1,0 +1,17 @@
+<div class="page-header">
+    <h1>Chart Display</h1>
+</div>
+<div class="well well-lg">
+    <strong>Title</strong><br>{{chart.title}}
+</div>
+        <div ac-chart="chartType" ac-data='data' ac-config='config' id="chart" class="chart"></div>
+
+        <form role="form" name="input" ng-submit="saveVolumes()" method="GET">
+
+                <select ng-repeat='variables in chart' ng-change="" ng-model="chart.variables[$index].y[0]" name="test" ng-options="c.name for c in amounts"></select>
+            <div class="col-xs-6">
+                <button class="btn btn-primary pull-right" type="submit">Save Data &raquo;</button>
+            </div>
+
+        </form>
+

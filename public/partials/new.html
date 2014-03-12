@@ -1,0 +1,36 @@
+<div class="page-header">
+    <h1>Create New Chart</h1>
+</div>
+
+<form role="form" ng-submit="createChart()">
+    <div class="form-group">
+        <label for="chartTitle">Title</label>
+        <input type="text" ng-model="chart.title" class="form-control" id="chartTitle" placeholder="Enter chart title">
+    </div>
+
+    <div class="form-group">
+        <label>X-Axis</label>
+        <div ng-repeat="variable in chart.variables">
+            <input type="text" ng-model="variable.x" class="form-control" placeholder="Independent variable {{$index+1}} text"><br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <button type="button" class="btn btn-default" ng-click="addVariable()"><span class="glyphicon glyphicon-plus"></span> Add another</button>
+        </div>
+    </div>
+
+    <p><hr></p>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <a href="#/charts" class="btn btn-default" role="button"><span class="glyphicon glyphicon-arrow-left"></span> Back to Chart List</a>
+        </div>
+        <div class="col-xs-6">
+            <button class="btn btn-primary pull-right" type="submit">Create Chart &raquo;</button>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+</form>
