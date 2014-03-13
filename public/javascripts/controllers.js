@@ -2,16 +2,27 @@
 
 // Controller for the poll list
 function ChartListCtrl($scope, Chart) {
-    $scope.charts = Chart.query();
- /* $scope.charts = Chart.query(function(){
+  //  $scope.charts = Chart.query();
+  $scope.charts = Chart.query(function(){
         for(var i in $scope.charts){
-         // Chart.findById({chartId: $scope.charts[i]._id});
-            var chart = new Chart($scope.charts[i]);
-            console.log($scope.charts[i]._id);
-          chart.findByIdAndRemove($scope.charts[i]._id)
-          // Chart.remove($scope.charts[i]._id);
+            var id = $scope.charts[i]._id;
+            var chart = mongoose.model('Chart', Schema);
+          chart.findByIdAndRemove(id, function(err, user) {
+              if (err) {
+                  console.log('could not delete user: ' + id);
+              }
+
+              callback(err, user);
+          }
+              );
         }
-    });*/
+
+           // var chart = new Chart($scope.charts[i]);
+           // console.log($scope.charts[i]._id);
+          //chart.findByIdAndRemove($scope.charts[i]._id)
+          // Chart.remove($scope.charts[i]._id);
+        })
+
 
 }
 
@@ -112,7 +123,7 @@ function ChartVolumeCtrl($scope, $routeParams, $location, Chart){
         $scope.chartType = 'bar';
 
         $scope.config = {
-            labels: false,
+            labels: true,
             title : $scope.chart.title,
             legend : {
                 display:true,

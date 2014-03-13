@@ -4,11 +4,11 @@ var db;
 //console.log("what are process.env.VCAP_SERVICES: "+process.env.VCAP_SERVICES);
 if (process.env.VCAP_SERVICES) {
     var env = JSON.parse(process.env.VCAP_SERVICES);
-    db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394'); 
+    db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394');
 
 } else {
-   db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394');
- //   db = mongoose.createConnection('localhost', 'charts');
+ //  db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394');
+   db = mongoose.createConnection('localhost', 'charts');
 }
 
 // Get Poll schema and model
@@ -111,6 +111,26 @@ exports.update = function(req, res) {
         }
     });
 };
+
+exports.remove = function(req, res){
+   //var chart = new Chart();
+
+    // Save poll to DB
+    var charts  = Chart.query(function(){
+        for(var i in charts){
+            var id = charts[i]._id;
+            var chart = new Chart(charts[i]);
+            chart.findByIdAndRemove(id, function(err, user) {
+                    if (err) {
+                        console.log('could not delete user: ' + id);
+                    }
+
+                    callback(err, user);
+                }
+            );
+        }
+
+}
 
 exports.vote = function(socket) {
     socket.on('send:vote', function(data) {
