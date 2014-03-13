@@ -2,8 +2,8 @@
 
 // Controller for the poll list
 function ChartListCtrl($scope, Chart) {
-   // $scope.charts = Chart.query();
-  $scope.charts = Chart.query(function(){
+    $scope.charts = Chart.query();
+ /* $scope.charts = Chart.query(function(){
         for(var i in $scope.charts){
          // Chart.findById({chartId: $scope.charts[i]._id});
             var chart = new Chart($scope.charts[i]);
@@ -11,7 +11,7 @@ function ChartListCtrl($scope, Chart) {
           chart.findByIdAndRemove($scope.charts[i]._id)
           // Chart.remove($scope.charts[i]._id);
         }
-    });
+    });*/
 
 }
 
