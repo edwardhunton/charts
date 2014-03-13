@@ -53,7 +53,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="3" selection-start="3964" selection-end="3964" vertical-scroll-proportion="0.47067448" vertical-offset="1659" max-vertical-offset="2640">
+            <state line="10" column="5" selection-start="484" selection-end="484" vertical-scroll-proportion="0.36855036" vertical-offset="0" max-vertical-offset="2640">
               <folding />
             </state>
           </provider>
@@ -406,7 +406,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37517053" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37517053" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4297408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -757,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/partials/new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="13" selection-start="825" selection-end="825" vertical-scroll-proportion="-4.58" vertical-offset="86" max-vertical-offset="630">
@@ -792,9 +785,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="3" selection-start="3964" selection-end="3964" vertical-scroll-proportion="0.47067448" vertical-offset="1659" max-vertical-offset="2640">
+        <state line="10" column="5" selection-start="484" selection-end="484" vertical-scroll-proportion="0.36855036" vertical-offset="0" max-vertical-offset="2640">
           <folding />
         </state>
       </provider>

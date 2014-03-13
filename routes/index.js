@@ -7,8 +7,8 @@ if (process.env.VCAP_SERVICES) {
     db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394');
 
 } else {
- //  db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394');
-   db = mongoose.createConnection('localhost', 'charts');
+   db = mongoose.createConnection('mongodb://edwardhunton:hostnation@oceanic.mongohq.com:10021/app22979394');
+   //db = mongoose.createConnection('localhost', 'charts');
 }
 
 // Get Poll schema and model
