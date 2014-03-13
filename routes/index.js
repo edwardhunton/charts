@@ -112,7 +112,7 @@ exports.update = function(req, res) {
     });
 };
 
-exports.remove = function(req, res){
+/*exports.remove = function(req, res){
    //var chart = new Chart();
 
     // Save poll to DB
@@ -130,7 +130,7 @@ exports.remove = function(req, res){
             );
         }
 
-}
+}*/
 
 exports.vote = function(socket) {
     socket.on('send:vote', function(data) {
