@@ -35,7 +35,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="72" selection-end="72" vertical-scroll-proportion="0.11749347" vertical-offset="0" max-vertical-offset="383">
+            <state line="6" column="77" selection-start="170" selection-end="198" vertical-scroll-proportion="0.23498695" vertical-offset="0" max-vertical-offset="383">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="charts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+            <state line="8" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/public/javascripts/app.js" />
         <option value="$PROJECT_DIR$/public/javascripts/controllers.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/charts.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -483,7 +484,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="0" selection-start="6490" selection-end="6490" vertical-scroll-proportion="0.0" vertical-offset="4350" max-vertical-offset="4905" />
+        <state line="290" column="0" selection-start="6490" selection-end="6490" vertical-scroll-proportion="0.0" vertical-offset="4350" max-vertical-offset="4905">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
@@ -507,7 +510,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="0" selection-start="6490" selection-end="6490" vertical-scroll-proportion="0.0" vertical-offset="4174" max-vertical-offset="4905" />
+        <state line="290" column="0" selection-start="6490" selection-end="6490" vertical-scroll-proportion="0.0" vertical-offset="4174" max-vertical-offset="4905">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/p_app.js">
@@ -678,14 +683,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+        <state line="8" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="72" selection-end="72" vertical-scroll-proportion="0.11749347" vertical-offset="0" max-vertical-offset="383">
+        <state line="6" column="77" selection-start="170" selection-end="198" vertical-scroll-proportion="0.23498695" vertical-offset="0" max-vertical-offset="383">
           <folding />
         </state>
       </provider>
